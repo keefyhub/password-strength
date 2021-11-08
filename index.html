@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <form>
+      <div class="form-body">
+        <ul class="form-fields">
+          <li class="form-row">
+            <fieldset class="form-field">
+              <label class="label-container" htmlFor="username">
+                <span class="form-label">Username</span>
+                <strong class="required">
+                  <abbr title="required">*</abbr>
+                </strong>
+                <em class="label-description">Enter your password</em>
+              </label>
+              <div class="input-container">
+                <input autocomplete="username" id="username" name="username" type="text" value="" required />
+              </div>
+            </fieldset>
+          </li>
+          <li class="form-row">
+            <fieldset class="form-field">
+              <label class="label-container" htmlFor="new-password">
+                <span class="form-label">Password</span>
+                <strong class="required">
+                  <abbr title="required">*</abbr>
+                </strong>
+                <em class="label-description">Enter your password</em>
+              </label>
+              <div class="input-container">
+                <input autocomplete="new-password" id="new-password" name="new-password" type="password" value="" required />
+              </div>
+              <div class="input-container">
+                <ul class="password-strength-requirements"></ul>
+              </div>
+            </fieldset>
+          </li>
+        </ul>
+      </div>
+    </form>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
